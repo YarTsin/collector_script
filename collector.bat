@@ -7,6 +7,9 @@
 
 echo Script start
 
+:: change CHCP to UTF-8
+CHCP 65001
+
 :: Очищаем или создаем файл work.txt перед запуском
 > work.txt echo.
 
